@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "RenoVision",
+    "slug": "renovision-lgu",
+    "version": "1.0.0",
+    "scheme": "renovision",
+    "platforms": ["android", "ios"],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0A0A0A",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0A0A0A"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "monochromeImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#D4AF37"
+      },
+      "package": "com.renovision.app",
+      "versionCode": 6,
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow RenoVision to access your photos",
+          "cameraPermission": "Allow RenoVision to use your camera"
+        }
+      ]
+    ],
+    "cli": {
+      "appVersionSource": "local"
+    },
+    "extra": {
+      "kaggleBackendUrl": "https://findlaw-restrictions-yorkshire-punch.trycloudflare.com",
+      "eas": {
+        "projectId": "e6f644d7-ecf1-42ec-8747-5ceabeb300cf"
+      }
+    }
+  }
+}

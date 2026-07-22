@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "463989723689",
+    "project_id": "renovision-68f37",
+    "storage_bucket": "renovision-68f37.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463989723689:android:47a676e9961c745aebc238",
+        "android_client_info": {
+          "package_name": "com.renovision.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "463989723689-q5mi2b6kbg8f31kj27jm61p94e07pu97.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.renovision.app",
+            "certificate_hash": "5787d27f22f29422f7bf3913c11bd9bb731cfa51"
+          }
+        },
+        {
+          "client_id": "463989723689-ik6bodnr1tun736pmb9gvbfafafta6vb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjZzBncw48KsDAgJa7QyW0x6VLAZINfZs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "463989723689-ik6bodnr1tun736pmb9gvbfafafta6vb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
